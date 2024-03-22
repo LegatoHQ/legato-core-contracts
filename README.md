@@ -1,9 +1,17 @@
+# Legato Protocol Smart Contracts
+running app on https://unsign.app
+
 # Getting Started
 
 ```
-    forge install OpenZeppelin/openzeppelin-contracts@v4.8.0
-    forge install OpenZeppelin/openzeppelin-contracts-upgradeable@v4.9.0
+    git clone 
     forge build
     forge test
+
+
 ```
+
+# Questions?
+- roy AT legatoHQ.com 
+- (or) roy AT osherove.com
 
