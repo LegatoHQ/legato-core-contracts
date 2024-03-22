@@ -3,6 +3,9 @@
 - company information: https://legatohq.com
 
 # Basic Architecture
+  
+  ![image](https://github.com/LegatoHQ/legato-core-contracts/assets/575051/85112b25-7e3a-4fcc-a8bc-182227aeb633)
+
   ![image](https://github.com/LegatoHQ/legato-core-contracts/assets/575051/c69636a7-0dda-491c-be38-b926e28dc17a)
 
 # Getting Started
