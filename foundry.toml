@@ -1,0 +1,10 @@
+[profile.default]
+out = 'out'
+src = 'contracts'
+libs = ['lib']
+test= 'test/foundry'
+optimizer = true
+optimizer_runs = 100
+solc = "0.8.7"
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
