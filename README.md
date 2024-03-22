@@ -1,5 +1,6 @@
 # Legato Protocol Smart Contracts
-running app on https://unsign.app
+- running app on https://unsign.app
+- company information: https://legatohq.com
 
 # Getting Started
 
