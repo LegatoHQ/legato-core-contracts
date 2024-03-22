@@ -1,9 +1,7 @@
 {
   "name": "hardhat-project",
   "scripts": {
-    "types": "echo COPYING TYPECHAIN --------- && rm -rf ../2license/src/typechain-types && cp -TRv typechain-types ../2license/src/typechain-types/ && find ../2license/src/typechain-types -name '*.ts' -exec sed -i '1s/.*/\\/\\/ @ts-nocheck/' {} \\;",
-    "format": "forge fmt && npx prettier **/*.ts -w",
-    "test": "forge test && npx hardhat test"
+    "test": "forge test"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
