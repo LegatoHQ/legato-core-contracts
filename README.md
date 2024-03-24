@@ -18,6 +18,10 @@ Legato Protocol enables IP owners, Artists, and their management team to **sign 
 # Links 
 
 # Basic Architecture
+
+  ![image](https://github.com/LegatoHQ/legato-core-contracts/assets/575051/47ab4ab9-f6d3-476e-aaa8-37aa7fbb9357)
+
+  ![image](https://github.com/LegatoHQ/legato-core-contracts/assets/575051/5b6f583d-6e9c-4efa-bf2a-6909ca4fd5ea)
   
   ![image](https://github.com/LegatoHQ/legato-core-contracts/assets/575051/85112b25-7e3a-4fcc-a8bc-182227aeb633)
 
