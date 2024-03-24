@@ -1,4 +1,6 @@
 # About Legato
+<img src="https://github.com/LegatoHQ/legato-core-contracts/assets/575051/26c3e99d-0b4b-4089-8fd8-7074a6291f78" height="100">
+
 Legato Protocol enables IP owners, Artists, and their management team to **sign music license deals quickly and easily**, and customize and control their price, terms, and type of contract. **Licensees** can easily transact with the Artist's team directly with no middle parties and friction.
 - running app on https://unsign.app
 - company information: https://legatohq.com
