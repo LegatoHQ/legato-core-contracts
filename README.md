@@ -8,7 +8,7 @@ Legato Protocol enables IP owners, Artists, and their management team to **sign 
 # Features 
 - Payment is done in USDC
 - Licenses are issues **on chain** in the form of license NFTs
-- Based on [EIP-5553 (https://eips.ethereum.org/EIPS/eip-5553)]
+- Based on [EIP-5553](https://eips.ethereum.org/EIPS/eip-5553)
 - Each IP asset i deployed as its own smart contract on chain
 - Each IP Asset (songs) has its own token limited to 100 units, which is spread across the creators of that asset (band members etc.)
 - Royalty payments are paid to the IP asset directly, and the protocol takes care of paying out the relative share to each owner of the tokens
