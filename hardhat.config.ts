@@ -35,21 +35,25 @@ const config: HardhatUserConfig = {
   // etherscan: {
   //   apiKey: process.env.ETHERSCAN_API_KEY
   // },
-  // networks: {
-  //   polygon: {
-  //     url: process.env.POLYGON_RPC || "",
-  //     accounts: [process.env.WALLET_PK_MUMBAI || ""]
-  //   },
+  networks: {
+    // polygon: {
+    //   url: process.env.POLYGON_RPC || "",
+    //   accounts: [process.env.WALLET_PK_POLYGON || ""]
+    // } ,
+    
+    // hardhat: {
+    //   chainId: 31337,
+    // } 
+
+  },
   //   mumbai: {
   //     url: process.env.MUMBAI_RPC || "",
   //     accounts: [process.env.WALLET_PK_MUMBAI || ""]
   //   },
   //   localhost: {
   //     chainId: 31337,
-  //   },
-  //   hardhat: {
-  //     chainId: 31337,
-  //   },
+    // },
+  // },
   // },
 };
 
