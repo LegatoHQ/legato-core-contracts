@@ -100,6 +100,25 @@ contract FeeDistributorV4 is
         require(hasRole(DEFAULT_ADMIN_ROLE, msg.sender), "owner-only action is allowed");
         _;
     }
+    
+    function initialize(address _storage, address _legatoAdmin, address _allowedCurrency, uint256 _protocolFee)
+        public
+        initializer
+    {
+        __AccessControl_init();
+        __Pausable_init();
+        // require(!isInitialized[address(this)], "v1 already initialized" );
+        // isInitialized[address(this)] = true;
+
+        __DATA__ = EternalStorage(_storage);
+        _grantRole(DEFAULT_ADMIN_ROLE, getAddressManager().getRootRegistry());
+        _grantRole(LEGATO_ADMIN_ROLE, _legatoAdmin);
+        _grantRole(LEGATO_ADMIN_ROLE, msg.sender);
+        _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
+        setProtocolFee(_protocolFee);
+        //@follow-up add test
+        addCurrency(_allowedCurrency);
+    }
 
     function addCurrency(address _currency) public onlyOwner {
         // console.log("addCurrency", _currency);
