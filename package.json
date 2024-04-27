@@ -24,7 +24,7 @@
     "@typechain/hardhat": "^8.0.0",
     "@types/mocha": ">=9.1.0",
     "chai": "^4.2.0",
-    "contractoor": "^0.1.8",
+    "contractoor": "^0.1.9",
     "dotenv": "^16.0.3",
     "ethers": "^6.4.0",
     "hardhat": "^2.17.0",

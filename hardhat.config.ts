@@ -36,6 +36,12 @@ const config: HardhatUserConfig = {
   //   apiKey: process.env.ETHERSCAN_API_KEY
   // },
   networks: {
+     // for testnet
+     'base-sepolia': {
+      url: 'https://sepolia.base.org',
+      accounts: [process.env.WALLET_KEY as string],
+      gasPrice: 1000000000,
+    },
     // polygon: {
     //   url: process.env.POLYGON_RPC || "",
     //   accounts: [process.env.WALLET_PK_POLYGON || ""]
