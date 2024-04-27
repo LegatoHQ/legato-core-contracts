@@ -11,6 +11,7 @@ out/
 
 # Dotenv file
 .env
+.deployState
 
 node_modules
 .env

@@ -1864,10 +1864,10 @@ concat-stream@^1.6.0, concat-stream@^1.6.2:
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-contractoor@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/contractoor/-/contractoor-0.1.9.tgz#9956c774e016a3806dc91ac740b558be293b069a"
-  integrity sha512-a/B6HviL9JXVYbx9s+ENpYxOCbN2wqo2fjzhhbJ+Vn9T1+3uettGDOCrRLjQ0mrzbZviG2ts2e2iMUZ8Z4mQSA==
+contractoor@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/contractoor/-/contractoor-0.1.10.tgz#9e8f3f7e7714fc5d07206c474ac09d2d1237652f"
+  integrity sha512-bF5YksEbgPrNDUYqX1OBPpTExd9TYcm0Wfa25nrCElxl1fDiw5KMFx/AW2WZd6UGBC2E21sCRCxVi0ZzRY9YmQ==
   dependencies:
     chalk "4.1.2"
     commander "^12.0.0"
